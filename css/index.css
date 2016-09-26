@@ -1,0 +1,21 @@
+.set_color {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+
+}
+
+.bar {
+	background-color: #eee;
+	width: 100%;
+	position: fixed;
+
+}
+
+.colors {
+	margin-top: 30px;
+	background-color: #eee;
+	width: 45px;
+	height: 100%;
+	position: fixed;
+}

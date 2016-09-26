@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<title>Paint with canvas HTML 5</title>
+</head>
+<body>	
+	<div class="container bar">
+		<div class="row">
+			<div class="col-ms-12">
+				<div class="radius" style="display:inline">
+					Pincel <label id="pincelVal">10</label>
+					<button class="btn btn-primary" id="btnDecrease">-</button>
+					<button class="btn btn-primary" id="btnIncrease">+</button>
+				</div>
+				<button class="btn btn-success" id="btnSave">Save</button>
+			</div>
+		</div>
+	</div>
+	<div class="colors" id="changeColor">
+		
+	</div>
+	<canvas id="canvas"></canvas>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/set_colors.js"></script>		
+</body>
+</html>
